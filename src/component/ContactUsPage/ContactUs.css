@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.ContactUsBox {
+    width: 100vw;
+    height: 130vh;
+    background-color: rgb(255, 255, 255);
+    padding: 10% 5% 5% 5%;
+}
+
+.boxContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        color: #323232;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 121.687%;
+        /* 48.675px */
+        text-align: center;
+    }
+
+}
+
+.contactText {
+    width: 100%;
+    height: 20%;
+    padding: 2%;
+    color: #595B5F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    /* 21.6px */
+}
+
+.box {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px 0px rgba(76, 0, 255, 0.25);
+    background-color: #ffffff;
+    padding: 1%;
+}
+
+.BoxLeft {
+    width: 50%;
+    height: 100%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 2%;
+ 
+
+}
+
+.address {
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+    width: 100%;
+    height: 40%;
+}
+
+.Ofice-address {
+    width: 80%;
+    height: 100%;
+    color: #323232;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 4px;
+
+    p {
+        color: #323232;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 4px;
+
+        strong {
+            font-weight: 700;
+
+        }
+    }
+}
+
+.email {
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+    width: 100%;
+    height: 15%;
+}
+
+.emailAddress {
+    width: 100%;
+    height: 100%;
+
+    p {
+        color: #323232;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 4px;
+
+        strong {
+            font-weight: 700;
+
+        }
+    }
+
+}
+
+.phoneIcon {
+    img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.addressIcon {
+    img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.emailIcon {
+    img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.phone {
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+    width: 100%;
+    height: 40%;
+}
+
+.phoneNo {
+    width: 100%;
+    height: 100%;
+
+    p {
+        color: #323232;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 4px;
+
+        strong {
+            font-weight: 700;
+        }
+    }
+}
+
+
+.ftlogo {
+    width: 5vw;
+    height: 5vh;
+}
+
+.BoxRight {
+    width: 50%;
+    height: 100%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+ 
+}
+
+
+.contactright {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    width: 25vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+
+    input {
+        border: 0;
+        background-color: #ffffff;
+        border: 0;
+        padding: 0;
+        z-index: 1;
+        background-color: transparent;
+        border-bottom: 2px solid #eee;
+        font: inherit;
+        font-size: 14px;
+        line-height: 30px;
+
+    }
+}
+
+.formcss {
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.massageBox {
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    color: #323232;
+
+    textarea {
+        color: #323232;
+        border: 0;
+        background-color: #ffffff;
+        border: 0;
+        padding: 0;
+        z-index: 1;
+        background-color: transparent;
+        border-bottom: 2px solid #423f3f;
+        ;
+        font: inherit;
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+
+
+.formbutton {
+    background-color: rgb(255, 187, 0);
+    border: 0px;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contactus {
+    width: 100%;
+    height: 100%;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+    position: absolute;
+    z-index: 0;
+}
+
+@media screen and (max-width:950px) {
+    .box {
+        width: 95%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        border-radius: 8px;
+        box-shadow: 0px 4px 12px 0px rgba(76, 0, 255, 0.25);
+    }
+
+    .address {
+        height: 25%;
+    }
+
+    .email {
+        height: 15%;
+    }
+
+    .phone {
+        height: 30%;
+    }
+
+    .ContactUsBox {
+
+        padding: 15% 5% 5% 5%;
+    }
+
+    .Ofice-address {
+        font-size: 10px;
+    }
+
+
+    .emailAddress {
+        font-size: 10px;
+    }
+
+    .phoneIcon {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .addressIcon {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .emailIcon {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .phoneNo {
+        font-size: 10px;
+    }
+
+
+    .ftlogo {
+        width: 5vw;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .ContactUsBox {
+
+        padding: 20% 5% 5% 5%;
+    }
+
+    .contactText {
+
+        font-size: 14px;
+
+    }
+
+    .boxContainer {
+
+        h1 {
+            font-size: 30px;
+        }
+
+    }
+
+    .Ofice-address {
+        font-size: 8px;
+    }
+
+
+    .emailAddress {
+        font-size: 8px;
+    }
+
+    .phoneIcon {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .addressIcon {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .emailIcon {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .phoneNo {
+        font-size: 8px;
+    }
+
+
+    .ftlogo {
+        width: 5vw;
+        height: 5vh;
+    }
+
+    .formbutton {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .ContactUsBox {
+        height: 200vh;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .BoxLeft {
+        width: 100%;
+        height: 50%;
+    }
+
+    .address {
+        display: flex;
+        gap: 1%;
+        padding: 1%;
+        width: 100%;
+        height: 40%;
+    }
+
+    .Ofice-address {
+        width: 80%;
+        height: 100%;
+        color: #323232;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 4px;
+
+        p {
+            color: #323232;
+            font-size: 12px;
+            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            padding-top: 4px;
+
+            strong {
+                font-weight: 700;
+
+            }
+        }
+    }
+
+    .email {
+        display: flex;
+        gap: 1%;
+        padding: 1%;
+        width: 100%;
+        height: 15%;
+    }
+
+    .emailAddress {
+        width: 100%;
+        height: 100%;
+
+        p {
+            color: #323232;
+            font-size: 12px;
+            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            padding-top: 4px;
+
+            strong {
+                font-weight: 700;
+
+            }
+        }
+
+    }
+
+    .phoneIcon {
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .addressIcon {
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .emailIcon {
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .phone {
+        display: flex;
+        gap: 1%;
+        padding: 1%;
+        width: 100%;
+        height: 40%;
+    }
+
+    .phoneNo {
+        width: 100%;
+        height: 100%;
+
+        p {
+            color: #323232;
+            font-size: 12px;
+            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            padding-top: 4px;
+
+            strong {
+                font-weight: 700;
+            }
+        }
+    }
+
+
+    .ftlogo {
+        width: 5vw;
+        height: 5vh;
+    }
+
+    .BoxRight {
+        width: 100%;
+        height: 50%;
+    }
+
+
+    .contactright {
+        width: 100%;
+        height: 100%;
+        padding: 2%;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        color: #323232;
+    }
+
+    .formcss {
+        width: 100%;
+        height: 60%;
+    }
+
+    .massageBox {
+        width: 100%;
+        height: 8%;
+        display: flex;
+        flex-direction: column;
+        color: #323232;
+
+    }
+
+
+    .formbutton {
+        background-color: rgb(255, 187, 0);
+        border: 0px;
+        color: black;
+        border-radius: 5px;
+        font-size: 16px;
+    
+    }
+
+    .contactus {
+        width: 100%;
+        height: 100%;
+        filter: blur(7px);
+        -webkit-filter: blur(7px);
+        position: absolute;
+        z-index: 0;
+    }
+}
